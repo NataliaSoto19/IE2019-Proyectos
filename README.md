@@ -1,17 +1,20 @@
 ## Proyectos Imagen Escrita 2019
 # Natalia Soto Vásquez
 
-<!DOCTYPE html><html><head>
-    <script src="p5.js"></script>
-    <script src="p5.dom.min.js"></script>
-    <script src="p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
+function preload() {
+  img = loadImage('moneda1.png');
+  fondo = loadImage ('756426.jpg');
+}
 
-  </head>
-  <body>
-    <script src="sketch.js"></script>
+function setup() {
+  createCanvas(600,600);
+  background (fondo);
+  imageMode(CENTER);
+}
 
 
-</body></html> 
-
+function draw() {
+  if (mouseIsPressed) {
+  image(img, mouseX, mouseY, 100, 100); 
+  }
+}
