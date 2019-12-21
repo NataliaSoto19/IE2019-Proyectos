@@ -3,7 +3,7 @@
 body{
 font-family: 'PT Serif', serif;
     background: #f1f8ff, $bg-blue-light
-    color: #ffffff:
+    color: #f5f0ff, $bg-purple-light;
      margin: 0,
 }
 a {
