@@ -2,8 +2,8 @@
 
 body{
 font-family: 'PT Serif', serif;
-    background: #f1f8ff, $bg-blue-light
-    color: #f5f0ff, $bg-purple-light;
+    background: #f1f8ff
+    color: #f5f0ff;
      margin: 0,
 }
 a {
